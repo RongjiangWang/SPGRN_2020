@@ -1,12 +1,12 @@
-A variant of FORTRAN code QSSP, for calculating a Green's function database of synthetic seismograms based on a
+A variant of FORTRAN code QSSP, for calculating a Green's function database of synthetic seismograms based on a spherically symmetric earth model.
 
 For Windows user, the executable file is provided under folder "WindowsEXE". Linux user may compile the source codes with "gfortran" via a single command like, e.g.,
 
 ~>cd .../SourceCode
 
-~>gfortran -o qsspstatic *.f -O3
+~>gfortran -o spgrn2020 *.f -O3
 
-to get the excutable code qsspstatic.
+to get the excutable code spgrn2020.
 
 After start the executable code, the program ask for an input file in the ASCII format. An example input file is provided under folder "InputFile". You may change the input data included in this file for your own applications.
 
