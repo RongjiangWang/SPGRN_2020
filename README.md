@@ -1,4 +1,4 @@
-A variant of FORTRAN code QSSP generating a Green's function database of synthetic seismograms based on a spherically symmetric earth model.
+A variant of FORTRAN code QSSP to generate a Green's function database of synthetic seismograms based on a spherically symmetric earth model.
 
 For Windows user, the executable file is provided under folder "WindowsEXE". Linux user may compile the source codes with "gfortran" via a single command like, e.g.,
 
