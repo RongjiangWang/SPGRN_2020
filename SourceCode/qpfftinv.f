@@ -29,9 +29,9 @@ c
 c
       do it=1,ntout
         t=dble(it-1)*dtout
-        lf=1+int(t/dt)
+        lf=1+idint(t/dt)
         if(lf.lt.2*nf)then
-          b=t/dt-dble(lf-1)
+          b=dmod(t,dt)/dt
           a=1.d0-b
           tgrn(it)=sngl(a*dreal(cswap(lf))+b*dreal(cswap(lf+1)))
         else
